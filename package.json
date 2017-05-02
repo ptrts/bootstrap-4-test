@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": ">=4",
+    "jquery": ">=1.9.1 <4.0.0",
+    "jquery-ui-dist": "^1.12.1",
+    "rangeslider.js": "^2.3.0"
+  }
+}
