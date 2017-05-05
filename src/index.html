@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8">
+    <!--Наверное что-то для кроссбраузерности, для поддержки разных браузеров, может быть уже устаревших-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Три тега meta, которые выше, должны быть самые первые в head. Все остальное должно быть уже после них-->
+
+    <!-- -------------------------------------------------------------------
+    Workarounds, shims, things for debugging
+    -------------------------------------------------------------------- -->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="js/vendor/bootstrap/ie8-responsive-file-warning.js"></script>
+    <![endif]-->
+    <script src="js/vendor/bootstrap/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/vendor/bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- -------------------------------------------------------------------
+    Bootstrap CSS
+    -------------------------------------------------------------------- -->
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <!-- -------------------------------------------------------------------
+    Font Awesome
+    -------------------------------------------------------------------- -->
+    
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
+    
+    <!-- -------------------------------------------------------------------
+    Основные параметры нашего приложения
+    -------------------------------------------------------------------- -->
+
+    <title>BS4 Test</title>
+
+    <!-- -------------------------------------------------------------------
+    Стили нашего приложения
+    -------------------------------------------------------------------- -->
+    
+    <style>
+        
+        div.d-flex, div.d-inline-flex {
+            border: 1px solid darkgray;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+<br>
+<br>
+<i class="fa fa-user"></i>
+<br>
+<br>
+
+<div class="container">
+
+    <div class="row">
+        <div class="column">&nbsp;</div>
+    </div>
+    
+    <div class="row">
+
+        <div class="col-6">
+            
+            <div class="d-flex p-2">I'm a flexbox container!</div>
+        
+        </div>
+        
+        <div class="col-6">
+            
+            <div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
+    
+        </div>
+        
+    </div>
+    
+    
+</div>
+
+<!-- -------------------------------------------------------------------
+JavaScript
+-------------------------------------------------------------------- -->
+
+<!--jQuery-->
+<script src="../node_modules/jquery/dist/jquery.slim.js"></script>
+
+<!--Какая-то непонятная штука-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+
+<!--Twitter Bootstrap-->
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/vendor/bootstrap/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>

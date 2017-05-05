@@ -4,6 +4,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": ">=4",
+    "font-awesome": "^4.7.0",
     "jquery": ">=1.9.1 <4.0.0",
     "jquery-ui-dist": "^1.12.1",
     "rangeslider.js": "^2.3.0"
